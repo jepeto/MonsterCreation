@@ -3,7 +3,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
-const PORT = process.env.PORT || 8000;
+const port = process.env.PORT || 8000;
 const isProduction = process.env.NODE_ENV === 'production';
 
 const app = express();
@@ -18,6 +18,6 @@ app.get("/*", (req, res) => {
 });
 
 
-app.listen(8000, () => {
-  console.log(`Server running on ${PORT}!`);
+app.listen(port, () => {
+  console.log(`Server running on ${port}!`);
 })
