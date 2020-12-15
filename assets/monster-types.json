@@ -1,0 +1,42 @@
+{
+	"outlaw": {
+		"hp": "L*100",
+		"patk": "(L+5)*3",
+		"matk": 5,
+		"pdef": "L+12",
+		"mdef": "L+2",
+		"gold": "L*3"
+	},
+	"shadowborne": {
+		"hp": "L*30",
+		"patk": "(L+7)*5",
+		"matk": 12,
+		"pdef": "L+1",
+		"mdef": "L+3",
+		"gold": "L*4"
+	},
+	"arcanist": {
+		"hp": "L*50",
+		"patk": 7,
+		"matk": "L*10",
+		"pdef": "L",
+		"mdef": "(L+2)*4",
+		"gold": "L*4"
+	},
+	"acolyte": {
+		"hp": "L*60",
+		"patk": "(L+3)*2",
+		"matk": "(L+2)*3",
+		"pdef": "L+3",
+		"mdef": "L+3",
+		"gold": "L*2"
+	},
+	"dragon": {
+		"hp": "L*600",
+		"patk": "(L+15)*3",
+		"matk": "(L+4)*8",
+		"pdef": "L+30",
+		"mdef": "(L+5)*5",
+		"gold": "L*15"
+	}
+}
